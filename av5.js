@@ -4,3 +4,5 @@ const carros = [
     { modelo: "Mobi", marca: "Fiat" },
     { modelo: "HB20", marca: "Hyundai" }
 ];
+ const fiats = carros.filter(carro => carro.marca === "fiat");
+ console.log(fiats);
